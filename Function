@@ -1,0 +1,14 @@
+Check Answer
+
+func CheckAnswer(id: Int)-> (String)
+{
+    var msg:String
+    if(id == 2){
+        msg = "Correct!!!"
+        
+    }else{
+        msg = "Wrong, Looser!"
+    }
+    
+    return (msg)
+}
